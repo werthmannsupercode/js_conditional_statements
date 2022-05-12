@@ -44,3 +44,30 @@ function greaterThen() {
         alert('Du darfst noch nicht Shisha rauchen');
     }
 }
+
+let label = document.getElementById("label");
+let airQuality = document.getElementById("airQuality");
+let healthConcern = document.getElementById("healthConcern");
+let healthEffect = document.getElementById("healthEffect");
+let bgColor = document.getElementById("bgColor");
+
+function checkAirQuality() {
+    label.innerHTML = "AQ: " + airQuality.value + "<br>";
+    if (airQuality.value >= 0 && airQuality.value <= 50) {
+        healthConcern.innerHTML = "Health Concern: Good";
+        healthEffect.innerHTML = "Health Effect: Little or no risk";
+        bgColor.style.backgroundColor = "green";
+    }
+
+    else if (airQuality.value >= 50 && airQuality.value <= 100) {
+        healthConcern.innerHTML = "Health Concern: Moderate";
+        healthEffect.innerHTML = "Health Effect: Acceptable Quality";
+        bgColor.style.backgroundColor = "orange";
+    }
+
+    else if (airQuality.value >= 100 && airQuality.value <= 150) {
+        healthConcern.innerHTML = "Health Concern: Unhealthy for sensitive groups";
+        healthEffect.innerHTML = "Health Effect: Generable publics not likely affected";
+        bgColor.style.backgroundColor = "red";
+    }
+}
