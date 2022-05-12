@@ -1,0 +1,44 @@
+.dhl {
+    display: flex;
+    color: #D40511;
+    background-color: #FFCC00;
+    height: 9em;
+    width: 50em;
+}
+
+.boxMasse {
+    margin: 5px;
+    width: 400px;
+    border: 2px solid #D40511;
+    ;
+    border-radius: 5px;
+    padding: 10px
+}
+
+.dhlButton {
+    border: 2px solid #D40511;
+    ;
+    color: #fff;
+    background-color: #D40511;
+    ;
+    margin: 5px;
+    display: inline-flex;
+    align-items: center;
+    padding: .5rem 3.8rem;
+    border: 2px solid #d1d1d1;
+    border-radius: 0;
+    cursor: pointer;
+    outline: 0;
+    font-weight: 500;
+    white-space: normal;
+    transition: color 200ms, background-color 200ms, border-color 200ms;
+}
+
+.dhlButton:hover {
+    color: #D40511;
+    ;
+    background-color: #fff;
+    outline: 0;
+    border-color: #D40511;
+    ;
+}
