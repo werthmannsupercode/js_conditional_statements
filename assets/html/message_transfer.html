@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style_message_transfer.css">
+    <title>Message Transfer</title>
+</head>
+
+<body>
+    <a href="../../index.html">zurück zur Startseite</a>
+    <div>
+        <form onsubmit="return false">
+            <h3>Welche Nachricht möchtest du weitergeben?</h3>
+            <input type="text" id="nachricht"><br>
+            <input type="submit" value="Senden" onclick="showMessage()">
+        </form>
+        <h5 id="warnung"></h5>
+        <h4>Letzte Nachricht:</h4>
+        <p id="letzteNachricht"></p>
+    </div>
+
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

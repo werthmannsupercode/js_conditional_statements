@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(108, 185, 240);
+}
+
+div {
+    background-color: white;
+    border-radius: 20px;
+    height: 60vh;
+    width: 60vw;
+    margin: 20vh 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#nachricht {
+    margin-bottom: 20px;
+    width: 20vw;
+    height: 10vh;
+}

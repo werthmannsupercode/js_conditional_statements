@@ -203,6 +203,21 @@ function showHoroskop() {
     }
 }
 
+let nachricht = document.getElementById('nachricht');
+let warnung = document.getElementById('warnung');
+let letzteNachricht = document.getElementById('letzteNachricht');
+
+function showMessage() {
+    if (nachricht.value) {
+        letzteNachricht.innerHTML = nachricht.value;
+    }
+
+    else {
+        warnung.innerHTML = "Bitte geben Sie eine Nachricht ein";
+    }
+}
+
+
 
 //  
 //  
