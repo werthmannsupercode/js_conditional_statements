@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style_semi_horoskop.css">
+    <title>Semi Horoskop</title>
+</head>
+
+<body>
+    <a href="../../index.html">zurück zur Startseite</a>
+
+    <div id="box">
+        <form onsubmit="return false">
+            <select name="mylist" size="3" id="sternzeichen">
+                <option value="1">ARIES</option>
+                <option value="2">TAURUS</option>
+                <option value="3">GEMINI</option>
+                <option value="4">CANCER</option>
+                <option value="5">LEO</option>
+                <option value="6">VIRGO</option>
+                <option value="7">LIBRA</option>
+                <option value="8">SCORPIO</option>
+                <option value="9">SACITTARIUS</option>
+                <option value="10">CAPRICORN</option>
+                <option value="11">AQUARIUS</option>
+                <option value="12">PISCES</option>
+            </select>
+            <input type="submit" value="Abschicken" onclick="showHoroskop()">
+        </form>
+        <div id="horoskop"></div>
+
+    </div>
+
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

@@ -156,3 +156,67 @@ function showtxt() {
             masse.innerHTML = "Wählen Sie ein Feld aus";
     }
 }
+
+let sternzeichen = document.getElementById('sternzeichen');
+let horoskop = document.getElementById('horoskop');
+
+function showHoroskop() {
+    switch (sternzeichen.value) {
+        case "1":
+            horoskop.innerHTML = "<h3>ARIES:</h3><h4>Mar</h4><p>Today your patience might be tested when one or more of your projects gets put on hold by someone…</p><img src='https://www.horoscopedates.com/img/icon_aries.png' alt='Aries'>";
+            break;
+        case "2":
+            horoskop.innerHTML = "<h3>TAURUS:</h3><h4>Apr</h4><p>Your intense energy makes you a great candidate for a leadership position right now, so if you are…</p><img src='https://www.horoscopedates.com/img/icon_taurus.png' alt='Taurus'>";
+            break;
+        case "3":
+            horoskop.innerHTML = "<h3>GEMINI:</h3><h4>May</h4><p>If you aren't sure if you are ready to commit to a party, a date, a new job, or anything else that…</p><img src='https://www.horoscopedates.com/img/icon_gemini.png' alt='Gemini'>";
+            break;
+        case "4":
+            horoskop.innerHTML = "<h3>CANCER:</h3><h4>Jun</h4><p>Too many different elements in your life are overlapping with each other right now—and it's your…</p><img src='https://www.horoscopedates.com/img/icon_cancer.png' alt='Cancer'>";
+            break;
+        case "5":
+            horoskop.innerHTML = "<h3>LEO:</h3><h4>Jul</h4><p>The issues you'll be dealing with today are very complicated ones—you will have to navigate your…</p><img src='https://www.horoscopedates.com/img/icon_leo.png' alt='Leo'>";
+            break;
+        case "6":
+            horoskop.innerHTML = "<h3>VIRGO:</h3><h4>Aug</h4><p>You'll get along best with people who appeal to your more analytical side, today. Surprisingly, all…</p><img src='https://www.horoscopedates.com/img/icon_virgo.png' alt='Virgo'>";
+            break;
+        case "7":
+            horoskop.innerHTML = "<h3>LIBRA:</h3><h4>Sep</h4><p>Pick a cultural event that's coming up and get some tickets for it today.</p><img src='https://www.horoscopedates.com/img/icon_libra.png' alt='Libra'>";
+            break;
+        case "8":
+            horoskop.innerHTML = "<h3>SCORPIO:</h3><h4>Oct</h4><p>Someone will challenge a belief that you've held for a very long time today—and they will say an…</p><img src='https://www.horoscopedates.com/img/icon_scorpio.png' alt='Skorpio'>";
+            break;
+        case "9":
+            horoskop.innerHTML = "<h3>SAGITTARIUS:</h3><h4>Nov</h4><p>Someone in your life needs to step up and take on more responsibility—and you need to tell them to...</p><img src='https://www.horoscopedates.com/img/icon_sagittarius.png' alt='Sagittarius'>";
+            break;
+        case "10":
+            horoskop.innerHTML = "<h3>CAPRICORN:</h3><h4>Dec</h4><p>Breaking the rules is not always a bad thing—especially if the rules limit your creativity.</p><img src='https://www.horoscopedates.com/img/icon_capricorn.png' alt='Capricorn'>";
+            break;
+        case "11":
+            horoskop.innerHTML = "<h3>AQUARIUS:</h3><h4>Jan</h4><p>Have you been feeling a bit bored with your life lately? Well, good news! Today offers you a great…</p><img src='https://www.horoscopedates.com/img/icon_aquarius.png' alt='Aquarius'>";
+            break;
+        case "12":
+            horoskop.innerHTML = "<h3>PISCES:</h3><h4>Feb</h4><p>Communication is very important today—written, spoken, and even nonverbal body language will all…</p><img src='https://www.horoscopedates.com/img/icon_pisces.png' alt='Pisces'>";
+            break;
+        default:
+            horoskop.innerHTML = "Bitte wähle ein Sternzeichen aus."
+    }
+}
+
+
+//  
+//  
+// 
+// 
+//  
+//  
+//  
+// 
+//  
+//  
+// 
+// 
+//  
+//  
+// 
+// 
