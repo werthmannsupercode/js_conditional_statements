@@ -210,6 +210,7 @@ let letzteNachricht = document.getElementById('letzteNachricht');
 function showMessage() {
     if (nachricht.value) {
         letzteNachricht.innerHTML = nachricht.value;
+        warnung.innerHTML = "";
     }
 
     else {
